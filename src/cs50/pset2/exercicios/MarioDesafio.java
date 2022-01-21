@@ -9,7 +9,7 @@ public class MarioDesafio {
 
         //Prompt user for height
         do {
-            System.out.printf("Height: ");
+            System.out.print("Height: ");
             h = scanner.nextInt();
         } while (h > 8 || h < 1);
 
@@ -21,18 +21,18 @@ public class MarioDesafio {
         for (int i = 0; i < h; i++) {
             for (int j = 0; j < h; j++) {
                 if (i + j < h - 1){
-                    System.out.printf(" ");
+                    System.out.print(" ");
                 } else {
-                    System.out.printf("#");
+                    System.out.print("#");
                 }
             }
 
             //Gap between left and right side
-            System.out.printf("  ");
+            System.out.print("  ");
 
             for (int k = 0; k <= h; k++) {
                 if (i + k >= h){
-                    System.out.printf("#");
+                    System.out.print("#");
                 }
             }
             System.out.println();
