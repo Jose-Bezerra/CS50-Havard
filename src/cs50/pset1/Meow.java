@@ -1,4 +1,4 @@
-package cs50.pset2;
+package cs50.pset1;
 
 public class Meow {
     public static void main(String[] args)

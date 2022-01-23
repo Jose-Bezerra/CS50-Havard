@@ -1,4 +1,4 @@
-package cs50.pset2.exercicios;
+package cs50.pset1.exercicios;
 
 import java.util.Scanner;
 
